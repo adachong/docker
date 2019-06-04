@@ -1,0 +1,5 @@
+CREATE TABLE IF NOT EXISTS `orders`(
+    ID          BIGINT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+    Distance    BIGINT NOT NULL,
+    Status      VARCHAR(20) NOT NULL
+);
