@@ -3,19 +3,19 @@
   "version": "0.0.0",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js"
+    "start": "node app.js",
+    "test": "mocha"
   },
   "dependencies": {
     "@hapi/joi": "^15.0.3",
     "apidoc": "^0.17.7",
     "body-parser": "^1.18.2",
     "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
     "express": "~4.16.1",
     "google-distance-matrix": "^1.1.1",
     "lodash": "^4.17.11",
     "mocha": "^6.1.4",
-    "mysql": "^2.15.0",
-    "should": "^13.2.3",
-    "sinon": "^7.3.2"
+    "mysql": "^2.15.0"
   }
 }

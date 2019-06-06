@@ -4,5 +4,3 @@
 
 - TODO:
 	1. Add db handler
-	2. Add unit test by mocha, chai and simon
-	3. Add error handler
