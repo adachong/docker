@@ -19,7 +19,7 @@ let mysqlConfig = {
   password        : process.env.MYSQL_PASSWORD,
   database        : process.env.MYSQL_DATABASE
 };
-var connection = mysql.createConnection(mysqlConfig);
+let connection = mysql.createConnection(mysqlConfig);
 
 connection.connect((err) => {
 	if (err) {
